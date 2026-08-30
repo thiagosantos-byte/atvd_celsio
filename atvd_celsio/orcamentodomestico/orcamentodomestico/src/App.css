@@ -1,0 +1,19 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: system-ui, sans-serif; background: #f8fafc; }
+.container { max-width: 800px; margin: 40px auto; padding: 24px; background: white; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.06); }
+h1 { text-align: center; margin-bottom: 20px; color: #1e293b; }
+.formulario { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr 1fr auto; gap: 8px; margin-bottom: 16px; }
+input, select { padding: 10px; border: 1px solid #cbd5e1; border-radius: 8px; }
+button { padding: 10px 16px; background: #334155; color: white; border: none; border-radius: 8px; cursor: pointer; font-weight: 600; }
+.erro { color: #e53e3e; margin-bottom: 12px; }
+.resumo { display: flex; justify-content: space-around; margin-bottom: 24px; padding: 16px; background: #f1f5f9; border-radius: 10px; }
+.resumo div { text-align: center; }
+.resumo span { display: block; font-size: 0.85rem; color: #64748b; margin-bottom: 4px; }
+.resumo strong { font-size: 1.2rem; }
+.vazio { text-align: center; color: #a0aec0; padding: 20px; }
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 10px; text-align: left; border-bottom: 1px solid #e2e8f0; }
+th { background: #f1f5f9; }
+td.receita { color: #16a34a; text-transform: capitalize; }
+td.despesa { color: #dc2626; text-transform: capitalize; }
+.excluir { background: #e53e3e; padding: 4px 8px; font-size: 0.8rem; }
